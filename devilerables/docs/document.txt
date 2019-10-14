@@ -1,0 +1,3 @@
+Hello!
+
+This is suppose to be a document.

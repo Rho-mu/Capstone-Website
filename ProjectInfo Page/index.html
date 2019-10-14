@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Team Project Info</title>
+        <link rel="icon" href="Team treeviz.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+           .title1 {color: blue;
+                    font-weight: bold;
+                    font-size: 150%;
+            }
+            body {
+                background-image: url(Tree5.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <div align='center'>
+            <img  src='Tree Growth.gif'   alt='tree grwoth.gif' height="400" width="500">
+        </div>
+        <div style="float: left">
+            <p class="title1" >
+            Project Overview:
+        </p>
+        <P>
+           Our project is about visualizing the process of a tree growth. Users can type in the key variables on a pretty cool interface, and
+           then they can get a visualized result about the growth condition of a certain tree after a period of time.
+           The original program needs user to have some knowledge about some programing language in order to run the program and get the result.
+           With the help of our program, the audience of the program will be larger.
+        </P>
+        <p class="title1">
+            Basic features:
+        </p>
+        <ul>
+            <li>
+             Develop a web application that provides a dynamic interface to the ACGCA model; 
+            this could be through re-implementing the model in an internal module, or somehow
+            serving as a GUI front end driven by the existing MatLab or C code in the background.
+            The interface should be easy for non computer-savvy users to use and visually appealing.
+            </li>
+            <li>
+             Allows dynamic exploration: users can easily enter parameter values (or perhaps have sliders
+             allowing users to adjust them within realistic ranges) and “click GO” to re-run the model to explore
+             the results. The parameters represent different biological “traits” that govern tree growth, and
+             different numerical values can result in different growth patterns, and can mean the difference
+             between a healthy growing tree versus one that dies quickly.
+            </li>
+            <li>
+              The resulting model output should be shown as some simple visualization of predicted tree health
+              over time, as well as being downloadable as a numerical file.  
+            </li>
+            <li>
+                A particular set of parameter values is meant to describe an individual tree, and upon clicking “GO,”
+                the model will simulate how that tree grows over a specific time period (also input by the user)
+            </li>
+        </ul>
+        <p class="title1">
+            Further development Goal:
+        </p>
+        <ul>
+            <li>
+             A more advanced interface should be able to simulate growth patterns for multiple trees (i.e.,
+             multiple sets of parameter values).
+            </li>
+            <li>
+             It would be useful if the user could also have the option of uploading a data file with the (30+)
+             parameter values, instead of entering them using the GUI as outlined above. Users should also be
+             able to “save settings”, saving a particular parameter set into a data file (e.g. XML, JSON), which
+             could be mailed to and uploaded by other users to explore.
+            </li>
+            <li>
+              An improved and more detailed visualization of tree growth/vitality; something more interesting/
+              interactive than the basic visualization required in the MVP. The results should be available in a nice
+              viewer, e.g., with a time slider along the bottom allowing the users to (a) “play” the time sequence so
+              that the slider moves on its own through the time series, with the tree visualization changing
+              accordingly; and (b) the user can move the slider manually. This could be achieved with automated
+              arrangements of a series of 2-D images of a tree as well as scaling those images to create a time
+              series that visualizes changes to the tree over time. During stressful periods, the tree may drop
+              leaves or branches while maintaining its height, and the visualization tool should be able to capture
+              these “pruning” periods.
+            </li>
+            <li>
+                If the user elects6 to simulate growth of multiple trees (different sets of parameter values), visualizing
+                or plotting tools should be developed to “overlay” or compare the predicted growth patterns of the
+                different trees.
+            </li>
+        </ul>
+        </div>
+        <div align='center'>
+            <img  src='Team treeviz.png'   alt='treeviz.png' height="200" width="200">
+        </div>
+        <script>
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+#NavHelper{
+    left: 0;
+    top: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+}
+
+#NavHelper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+#NavHelper li {
+  float: left;
+}
+
+#logo{
+  display: inline-block;
+  float: left;
+  padding: 0;
+}
+#logo img{
+    width: 100px;
+    padding-top: 5px;
+}
+#logo a:hover {
+    background-color: transparent;
+}
