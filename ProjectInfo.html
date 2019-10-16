@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TreeViz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="custom-padding">
+    <nav>
+      <div class="logo">TreeViz</div>
+      <ul class="menu">
+        <li><a href="TreeViz.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="projectInfo.html">Project</a></li>
+        <li><a href="deliverables.html">Deliverables</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="homepage">
+    <h1>Our Project</h1>
+
+    <img src="Tree Growth.gif" alt="tree growth.gif" height="400" width="500">
+
+    <h2>Project Overview</h2>
+
+    <p>
+      Our project is about visualizing the process of a tree growth.
+      Users can type in the key variables on a pretty cool interface, and
+      then they can get a visualized result about the growth condition of a
+      certain tree after a period of time. The original program needs user
+      to have some knowledge about some programing language in order to run
+      the program and get the result. With the help of our program, the
+      audience of the program will be larger.
+    </p>
+
+    <h2>Basic Features</h2>
+
+    <p>
+      <p>
+        Develop a web application that provides a dynamic interface to the ACGCA model;
+        this could be through re-implementing the model in an internal module, or somehow
+        serving as a GUI front end driven by the existing MatLab or C code in the background.
+        The interface should be easy for non computer-savvy users to use and visually appealing.
+      </p>
+      <p>
+        Allows dynamic exploration: users can easily enter parameter values (or perhaps have sliders
+        allowing users to adjust them within realistic ranges) and “click GO” to re-run the model to explore
+        the results. The parameters represent different biological “traits” that govern tree growth, and
+        different numerical values can result in different growth patterns, and can mean the difference
+        between a healthy growing tree versus one that dies quickly.
+      </p>
+      <p>
+        The resulting model output should be shown as some simple visualization of predicted tree health
+        over time, as well as being downloadable as a numerical file.
+      </p>
+      <p>
+        A particular set of parameter values is meant to describe an individual tree, and upon clicking “GO,”
+        the model will simulate how that tree grows over a specific time period (also input by the user)
+      </p>
+    </p>
+
+    <h2>Further Development Goals</h2>
+
+    <p>
+      A more advanced interface should be able to simulate growth patterns
+      for multiple trees (i.e., multiple sets of parameter values).
+    </p>
+    <p>
+      It would be useful if the user could also have the option of uploading a
+      data file with the (30+) parameter values, instead of entering them
+      using the GUI as outlined above. Users should also be able to
+      “save settings”, saving a particular parameter set into a data
+      file (e.g. XML, JSON), which could be mailed to and uploaded by
+      other users to explore.
+    </p>
+    <p>
+      An improved and more detailed visualization of tree growth/vitality; something more interesting/
+      interactive than the basic visualization required in the MVP. The results should be available in a nice
+      viewer, e.g., with a time slider along the bottom allowing the users to (a) “play” the time sequence so
+      that the slider moves on its own through the time series, with the tree visualization changing
+      accordingly; and (b) the user can move the slider manually. This could be achieved with automated
+      arrangements of a series of 2-D images of a tree as well as scaling those images to create a time
+      series that visualizes changes to the tree over time. During stressful periods, the tree may drop
+      leaves or branches while maintaining its height, and the visualization tool should be able to capture
+      these “pruning” periods.
+    </p>
+    <p>
+      If the user elects6 to simulate growth of multiple trees (different sets of parameter values), visualizing
+      or plotting tools should be developed to “overlay” or compare the predicted growth patterns of the
+      different trees.
+    </p>
+
+
+  </div>
+</body>
+</html>
