@@ -18,9 +18,8 @@
     </nav>
   </div>
 
+<!--
   <div class="aboutus">
-    <h1 style="text-align: center">About Us!</h1>
-
     <div class="headshots">
       <p><img src="headshot Riley.jpg">Riley McWilliams</p>
 
@@ -30,8 +29,113 @@
       <p><img src="headshot Tang.jpg">Haitian Tang</p>
       <p><img src="headshot Kiona.jpg" style="padding-top: 100px"></p>
     </div>
+  </div>
+-->
 
+  <div class="container">
+    <h1 style="text-align: center">About Us!</h1>
+    <h1 class="type-head">Undergrad Students</h1>
+    <div class="row">
+      <div class="person">
+        <div class="content">
+          <img src="headshot Riley.jpg">
+          <h2>Riley McWilliams</h2>
+          <h3>rcm264@nau.edu</h3>
+          <h4>Team lead, programmer.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Daniel.jpg">
+          <h2>Daniel Rustrum</h2>
+          <h3>dtr63@nau.edu</h3>
+          <h4>Architect, Programmer.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Alex.jpg">
+          <h2>Alex Bentley</h2>
+          <h3>ajb564@nau.edu</h3>
+          <h4>Recorder, programmer.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Tang.jpg">
+          <h2>Haitian Tang</h2>
+          <h3>ht256@nau.edu</h3>
+          <h4>Programmer.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Han.jpg">
+          <h2>Qi Han</h2>
+          <h3>qh37@nau.edu</h3>
+          <h4>Programmer.</h4>
+        </div>
+      </div>
+    </div>
 
+    <h1 class="type-head">Clients and Mentor</h1>
+    <div class="row">
+      <div class="person">
+        <div class="content">
+          <img src="headshot Kiona.jpg">
+          <h2>Dr. Kiona Ogle</h2>
+          <h3>ko424@nau.edu</h3>
+          <h4>Client, coded ACGCA.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Mike.jpg">
+          <h2>Dr. Michael Fell</h2>
+          <h3>Michael.Fell@nau.edu</h3>
+          <h4>Coded ACGCA.</h4>
+        </div>
+      </div>
+      <div class="person">
+        <div class="content">
+          <img src="headshot Isaac.jpg">
+          <h2>Isaac Shaffer</h2>
+          <h3>ins2@nau.edu</h3>
+          <h4>Team mentor</h4>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
+
+<style>
+  .container {
+    margin: 100px 10% 0 10%;
+  }
+
+  .type-head {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .person {
+    float: left;
+    width: 20%;
+    margin: 0 10px 0 10px;
+    border: 5px double green;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3)
+  }
+
+  .content {
+    margin: 5px;
+  }
+
+  img {
+    width: 100px;
+  }
+</style>
