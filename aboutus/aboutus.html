@@ -1,24 +1,165 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="index.css">
-<title>TreeViz</title>
-</head>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="style.css">
+     <title>TreeViz: About Us</title>
+   </head>
+   <body>
+     <div class="nav">
+       <ul>
+         <img src="logo.png">
+         <li><a href="home.html">Home</a></li>
+         <li><a href="project.html">Project</a></li>
+         <li><a href="deliverables.html">Deliverables</a></li>
+         <li><a href="aboutus.html">About Us</a></li>
+       </ul>
+     </div>
 
-<body>
-		<!-- eye-catching -->
-	<h1>TreeViz</h1>
-	<h3>A user-friendly platform for visualizing tree growth</h3>
-	<h3>Purpose</h3>
-	<p>The purpose of this team standards document is to establish a common understanding of expectations between team members. An overview of what a typical meeting should look like is outlined.</p>
-	<!-- to be filled in-->
-	<h3>Problem</h3>
-	<p>Though our client has already developed an model for how growth of trees are affected by environment. Because the current implementation is not particularly user friendly. To use this model, users are required to enter command line parameter and invocation of the model code. THe output is purely numerical which is obviously tough to understand. Thus our cline wants us to interface with those manual parts and attach it to a Graphical User Interface.</p>
-	<h3>Solutions</h3>
-	<p>This is our design for project</p>
-	<p><img src="cs architecture.png" alt="solution" height=20% width=20%></p>
-	<h3>Technology</h3>
-	<p>Still in process</p>
-</body>
-</html>
+     <div class="container">
+       <h1 class="type-head">Undergrad Students</h1>
+       <div class="row">
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Riley.jpg" width="500" height="500">
+             <h2>Riley McWilliams</h2>
+             <h3>rcm264@nau.edu</h3>
+             <h4>Team lead, programmer.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Daniel.jpg" width="500" height="500">
+             <h2>Daniel Rustrum</h2>
+             <h3>dtr63@nau.edu</h3>
+             <h4>Architect, Programmer.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Alex.jpg" width="500" height="500">
+             <h2>Alex Bentley</h2>
+             <h3>ajb564@nau.edu</h3>
+             <h4>Recorder, programmer.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Tang.jpg" width="500" height="500">
+             <h2>Haitian Tang</h2>
+             <h3>ht256@nau.edu</h3>
+             <h4>Programmer.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Han.jpg" width="500" height="500">
+             <h2>Qi Han</h2>
+             <h3>qh37@nau.edu</h3>
+             <h4>Programmer.</h4>
+           </div>
+         </div>
+       </div>
+
+       <h1 class="type-head">Clients and Mentor</h1>
+       <div class="row">
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Kiona.jpg" width="500" height="500">
+             <h2>Dr. Kiona Ogle</h2>
+             <h3>ko424@nau.edu</h3>
+             <h4>Client, coded ACGCA.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Mike.jpg" width="500" height="500">
+             <h2>Dr. Michael Fell</h2>
+             <h3>Michael.Fell@nau.edu</h3>
+             <h4>Coded ACGCA.</h4>
+           </div>
+         </div>
+         <div class="person">
+           <div class="content">
+             <img src="headshots/headshot Isaac.jpg" width="500" height="500">
+             <h2>Isaac Shaffer</h2>
+             <h3>ins2@nau.edu</h3>
+             <h4>Team mentor</h4>
+           </div>
+         </div>
+       </div>
+     </div>
+   </body>
+ </html>
+
+ <style>
+   body {
+     margin: 0;
+     padding: 0;
+     position: relative;
+     font-family: sans-serif;
+   }
+
+   div {
+     display: block;
+   }
+
+   .nav {
+     top: 0;
+     left: 0;
+     margin: 0;
+     padding: 0;
+     position: fixed;
+     overflow: hidden;
+     z-index: 10;
+     height: 80px;
+     width: 100%;
+     background-color: green;
+   }
+
+   .nav li {
+     list-style-type: none;
+     float: left;
+     padding-right: 20px;
+   }
+
+   .nav li a {
+     color: white;
+     font-size: 40px;
+     text-decoration: none;
+   }
+
+   .nav li a:hover {
+     background-color: lightgreen;
+     transition: 0.3s;
+   }
+
+   .container {
+     margin-top: 100px;
+     margin: 100px 10% 0 10%;
+   }
+
+   .row {
+     display: flex;
+   }
+
+   .person {
+     float: left;
+     width: 20%;
+     margin: 0 10px 0 10px;
+     border: 5px double green;
+     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3)
+   }
+
+   .content {
+     margin: 5px;
+   }
+
+   img {
+     width: 80px;
+     height: 80px;
+   }
+
+ </style>
